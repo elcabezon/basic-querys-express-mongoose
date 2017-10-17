@@ -13,6 +13,7 @@ function crearModelos() {
     _jedi.remove({}, (err) => {
         console.log("Limpiar base de datos al arrancar")
       });
+      
     new _jedi({
         Nombre: "Anakin",
         Color: "Azul",
