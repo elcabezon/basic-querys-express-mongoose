@@ -30,8 +30,5 @@ module.exports = {
         });
     }
 }
-function newFunction(req, res) {
-    console.log("NAme:" + req.params.name);
-    res.send("Name:" + req.params.name);
-}
+
 
